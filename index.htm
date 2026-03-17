@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Berger-Dachbau UG</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" 
+          name="robots" content="index follow" 
+          name="description" content="Ihr Dachdeckerfachbetrieb in Köthen! Wir übernehmen Neubau, Sanierung und Reparatur von Dachdecker-, Dachklempner- und Zimmererleistungen. Informieren Sie sich jetzt..." 
+          name="keywords" content="..."/>
+    <link rel="shortcut icon" type="image/x-icon" href="images/Tabicon_Dachdecker.ico">
+    <link href="scrolling-nav.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <style>
+        a  {
+            color:#2f932f;
+        }
+        a:hover {
+            color:#226f22;
+            text-decoration: none;
+        }
+        body    {
+            font-family: sans-serif;
+            font-size: 1.6em;
+            background-image: url(images/Dachziegel_BG.jpg);
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-attachment: fixed;
+        }
+        h2  {padding-bottom:20px;}
+        img     {
+            padding:0px;
+            width:100%;
+        }
+        p   {            
+            text-align: justify;
+        }
+        textarea    {
+            width:100%;
+            height:240px;
+            font-size: 0.8em;
+            background-color: rgba(217, 217, 217, 0.6);
+            color:#313131;
+            padding:10px;
+            border-radius: 3px;
+            border:1px rgba(199, 199, 199, 0.5) groove;
+        }
+        
+        
+        #Wrapper    {
+            margin:0px;
+            padding:0px;
+        }
+        #Berger_Logo_Anhang {
+            border-bottom: px #ead700 solid;
+        }
+        #Leistungen li  {padding:7px;text-align: left;}
+        #Leistungen p   {padding-bottom:15px;}
+        #Loading    {
+            background:white;
+            text-align: center;
+            font-style: italic;
+            padding:50px;
+        }
+        #Logo   {
+            margin-top:50px;
+        }
+        #Referenzen img {border:1px rgba(0, 0, 0, 0.5) inset;}
+        #slides {
+          display:none;
+        }
+        #Uber_Uns   {
+            padding-bottom:40px;
+        }
+        #Kontakt    {text-align: left;padding-bottom:50px;}
+        #btn_kontakt    {width:100%;}
+        #Partner    {padding-bottom:50px;}
+        #Disclaimer {display:none;}
+        
+        
+            
+        .bg1    {background-color: #ead700;}
+        .bg2    {
+            background-color:#dbdbdb;
+            color:#141414;
+        }
+        .bg3    {
+            background-color:whitesmoke;
+            color:#141414;
+        }
+        .bottom {vertical-align: bottom;}
+        .center {text-align: center;}
+        .container-fluid    {
+            padding:0px;
+            width:100%;
+            max-width: 1200px;
+            margin:auto;
+        }
+        .content    {
+            padding-top:40px;
+            padding-bottom:30px;
+        }
+        .fotos  {
+            padding-top:15px;
+            padding-bottom:25px;
+        }
+        .justify  {text-align: justify;}
+        .left  {text-align: left;}        
+        .lightgray  {color:#a0a0a0;}
+        .navbar    {
+            margin:0 auto;
+            border:0px;
+            border-bottom:0px;
+            border-color: darkslategray;
+            border-radius: 0px;
+            box-shadow: 0 0 10px rgba(56, 56, 56, 0.85);
+            padding-left:10px;
+            padding-right:10px;
+            font-size:0.85em;
+        }
+        .navbar-logo {
+            text-align: left;
+            color:black;
+            padding:10px;
+            padding-right:20px;
+            font-size: 1.4em;
+        }
+        .row    {padding:0px;}
+        .textarea_spacer    {height:90px;}
+        .untertitel  {
+            text-align: center;
+            font-size:0.6em;
+            color:#5f5f5f;
+        }
+        
+        @media screen and (max-width: 500px) {
+            body    {font-size:1.2em;}
+            h2  {font-size:1.5em;}
+            
+            .content {
+                padding-top:15px;
+                padding-bottom:10px;
+                padding-left:10px;
+                padding-right:10px;
+            }
+            .fotos  {
+                padding-top:0px;
+                padding-bottom:0px;
+            }
+            .navbar-logo {
+                font-size: 1.8em;
+            }
+            .partner    {padding-bottom:30px;}
+        }
+        @media screen and (max-width: 992px) {
+            
+            #SSB_large   {display:none;}
+            #SSB_swipe   {display:block;}
+            
+            .content {
+                padding-left:20px;
+                padding-right:20px;                
+            }  
+            .navbar-logo {
+                padding-left:15px;
+            }
+            .textarea_spacer    {height:20px;}
+        }
+        @media screen and (min-width: 992px) {
+            
+            #SSB_large   {display:block;}
+            #SSB_swipe   {display:none;}
+        }
+        
+    </style>    
+    
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse" onload="loaded()">
+
+<div id="Wrapper"> 
+    
+<!-- Navigation ----------------------------------------------------------------------------------->
+    
+    <nav class="navbar navbar-default navbar-fixed-top bg1">
+      <div class="container-fluid">
+        <!-- Titel und Schalter werden für eine bessere mobile Ansicht zusammengefasst -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Navigation ein-/ausblenden</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="navbar-logo"><b>Berger-Dachbau UG</b></div>
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#Uber_Uns" class="page-scroll">Über uns</a></li>
+            <li><a href="#Leistungen" class="page-scroll">Leistungen</a></li>
+            <li><a href="#Referenzen" class="page-scroll">Referenzen</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#Kontakt" class="page-scroll">Kontakt</a></li>
+            <li><a href="#Partner" class="page-scroll">Partner</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!-- Content -------------------------------------------------------------------------------------->
+    
+    <div id="Logo" class="container-fluid"> 
+        <img id="Berger_Logo" src="images/Berger_Logo.png" alt="Bild nicht geladen">
+        <div id="Loading">... SEITE WIRD GELADEN ...</div>
+        <img id="Berger_Logo_Anhang" src="images/Berger_Logo_Anhang.png" alt="Bild nicht geladen"> 
+    </div>
+    
+    <div id="Uber_Uns" class="container-fluid justify bg2 content">
+        <div class="col-md-10 col-md-offset-1">
+        <h2>Über uns</h2>
+            <p>...kurze Vorstellung der Firma...Berufserfahrung, Werdegang, Fotos etc...</p>
+            
+        </div>        
+    </div>
+    
+    <div id="Leistungen" class="container-fluid justify bg3 content">
+        <div class="col-md-10 col-md-offset-1">
+        <h2>Unsere Leistungen für Sie...</h2>
+            <p>Wir übernehmen bei Neubau, Sanierung und Reparatur für Sie Aufgaben in den folgenden Bereichen:</p>
+            <div class="row">
+                <div class="col-md-7 col-sm-7 left">
+                    <ul>
+                        <li>Dachdeckerarbeiten aller Art</li>
+                        <li>Montage von Photovoltaikanlagen</li>
+                        <li>Dachklempnerarbeiten</li>
+                        <li>Zimmererleistungen</li>
+                        <li>Fassadenverkleidung und Schieferarbeiten</li>
+                        <li>Balkon- und Fassadenabdichtungen</li>
+                        <li>Gerüstbau</li>
+                    </ul>
+                </div>
+                <div class="col-md-5 col-sm-5">
+                    <img src="images/Dachstuhl.png" alt="Bild nicht geladen">
+                </div>
+            </div>
+            <p><br>Gern unterstützen wir Sie bereits in der Planungsphase. Die Beratung und das unverbindliche Erstellen eines ersten Angebotes sind in der Regel für Sie kostenfrei.<br><br>Unabhängig vom Umfang der auszuführenden Arbeiten sind wir gerne für Sie da. Wir sind stets bestrebt ihre individuellen Wünsche und Vorstellungen, unter  Berücksichtigung der anerkannten Regeln der Technik, bei Planung und Ausführung der Arbeiten zu realisieren.<br><br>Egal ob es um Dach, Balkon, Terrasse, Dämmung, Dichtung, Reparatur, Neubau, Sanierung, Modernisierung oder Wartung geht...<br><br>Sprechen Sie uns an!</p>
+        </div>        
+    </div>
+    
+    <div id="Referenzen" class="container-fluid bg2 content">
+        <div class="col-md-10 col-md-offset-1">
+            <h2>Unsere Referenzen...</h2>
+            <p>Bilder sagen mehr als Worte.<br>Bitte überzeugen Sie sich selbst von der Qualität bereits erledigter Aufträge!</p><br>
+            <!-- Referenz-Bilder auf PC - Schokolade --->    
+            <div class="col-md-12 untertitel fotos">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/Referenzen/A.jpg"><p>Bildbeschreibung A</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/Referenzen/B.jpg"><p>Bildbeschreibung B</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/Referenzen/C.jpg"><p>Bildbeschreibung C</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/Referenzen/D.jpg"><p>Bildbeschreibung D</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/Referenzen/E.jpg"><p>Bildbeschreibung E</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/Referenzen/F.jpg"><p>Bildbeschreibung F</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/Referenzen/G.jpg"><p>Bildbeschreibung G</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/Referenzen/H.jpg"><p>Bildbeschreibung H</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/Referenzen/I.jpg"><p>Bildbeschreibung I</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/Referenzen/J.jpg"><p>Bildbeschreibung J</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/Referenzen/K.jpg"><p>Bildbeschreibung K</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/Referenzen/L.jpg"><p>Bildbeschreibung L</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/Referenzen/M.jpg"><p>Bildbeschreibung M</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/Referenzen/N.jpg"><p>Bildbeschreibung N</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/Referenzen/O.jpg"><p>Bildbeschreibung O</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/Referenzen/P.jpg"><p>Bildbeschreibung P</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/Referenzen/Q.jpg"><p>Bildbeschreibung Q</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/Referenzen/R.jpg"><p>Bildbeschreibung R</p>
+                    </div>
+                </div>
+            </div>
+            <p><br><br>Gefällt Ihnen unsere Arbeit...<br>Haben Sie eigene Ideen...<br>Sind sie noch unschlüssig...<br><br>
+                Lassen Sie sich unverbindlich beraten.<br> Nehmen Sie jetzt Kontakt zu uns auf !!!</p><br>            
+        </div>
+    
+    </div>
+    
+    
+    <div id="Kontakt" class="container-fluid bg3 content">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="col-md-6">
+                <h2>Kontakt</h2>
+                <p>Andreas Berger, Dachdeckermeister</p><br>
+                <div class="row">
+                    <div class="col-md-2 col-sm-2"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></div>
+                    <div class="col-md-10 col-sm-10">Berger-Dachbau<br>Paschlewwerstr. 9<br>06366 Köthen<br><br></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 col-sm-2"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span></div>
+                    <div class="col-md-10 col-sm-10">03496 / 21 28 40 <br>0171 / 19 47 621<br><br></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 col-sm-2"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></div>
+                    <div class="col-md-10 col-sm-10">03496 / 21 26 18<br><br></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 col-sm-2"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></div>
+                    <div class="col-md-10 col-sm-10">andreas@berger-dachbau.de<br><br></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="textarea_spacer"></div>
+                <textarea placeholder="...schreiben Sie ihre Nachricht in diese Box !!!"></textarea>
+                <button type="submit" id="btn_kontakt" class="btn btn-success">Nachricht senden</button>
+            </div>
+        </div>
+    </div>
+    
+    <div id="Partner" class="container-fluid bg2 content">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="col-md-6 partner">
+                <h2>Partner</h2>
+                <p>Besuchen sie die Webseiten unserer Partner.</p>
+                <ul>
+                    <li><a href="http://www.wwb-dachbaustoffe.de/" target="_blank">WWB Dachbaustoffe</a></li>
+                    <li><a href="http://www.braas.de/" target="_blank">BRAAS</a></li>
+                    <li><a href="http://www.nelskamp.de/" target="_blank">NELSKAMP</a></li></li>
+                    <li>...</li>
+                    <li>...</li>
+                </ul>
+            </div>
+            <div class="col-md-6 lightgray">
+                <h2>Impressum</h2>
+                <div class="row">                    
+                    <div class="col-md-5">
+                        <p><i>Webseitenbetreiber:</i></p>
+                    </div>
+                    <div class="col-md-6 col-md-offset-1">
+                        <p class="lightgray">Andreas Berger<br>Berger-Dachbau<br>Paschlewwerstrasse 9<br>06366 Köthen</p>
+                    </div>
+                </div>
+                <div class="row">                    
+                    <div class="col-md-5">
+                        <p><i>Webdesign:</i></p>
+                    </div>
+                    <div class="col-md-6 col-md-offset-1">
+                        <p class="lightgray">Dandy Nagel</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5">
+                        <p><i>Haftungsauschluss:</i></p>
+                    </div>
+                    <div class="col-md-6 col-md-offset-1">
+                        <button type="button" id="btn_disc" class="btn-xs">einblenden</button>
+                    </div>
+                </div>                
+                <div  class="col-md-6 col-md-offset-6">
+                    <br><p>&copy; Berger-Dachbau 2016</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="Disclaimer" class="container-fluid bg3 content lightgray">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <p><strong>Haftung für Inhalte</strong></p>
+                <p>Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für 
+                eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. 
+                Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht 
+                verpflichtet, übermittelte oder gespeicherte fremde Informationen zu 
+                überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige 
+                Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der 
+                Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon 
+                unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem 
+                Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei 
+                Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte 
+                umgehend entfernen.</p>
+                <p><strong>Haftung für Links</strong></p>
+                <p>Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren 
+                Inhalte wir keinen Einfluss haben. Deshalb können wir für diese 
+                fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte 
+                der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der 
+                Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung 
+                auf mögliche Rechtsverstöße überprüft. Rechtswidrige 
+                Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente 
+                inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte 
+                einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen 
+                werden wir derartige Links umgehend entfernen.</p>
+                <p><strong>Urheberrecht</strong></p>
+                <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten 
+                unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und 
+                jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen 
+                der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads 
+                und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen 
+                Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, 
+                werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche 
+                gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. 
+                Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</p><p><i>Quellverweis: <a href="https://www.e-recht24.de">eRecht24</a></i></p>
+            </div>
+        </div>
+    </div>   
+
+
+</div>
+  
+    
+<!-- JS ------------------------------------------------------------------------------------------>   
+
+<script src="jquery.easing.min.js" type="text/javascript"></script>
+<script src="scrolling-nav.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+        
+    function loaded()   {
+        $("#Loading").slideUp(500);
+    }
+    
+</script>
+<script> 
+    
+    $("#PageCover").css("width", window.innerWidth+"px");
+    $("#PageCover").css("height", window.innerHeight+"px");
+    
+    var A=1;    
+    $("#btn_disc").click(function() {
+        if(A==1)    {
+            $("#Disclaimer").slideDown(400);
+            A=2;
+            $("#btn_disc").html('ausblenden');
+            return;}
+        if(A==2)    {
+            $("#Disclaimer").slideUp(400);
+            A=1;
+            $("#btn_disc").html('einblenden');
+            return;}
+        }); 
+    
+    
+</script>    
+    
+</body>
+</html>
+    
