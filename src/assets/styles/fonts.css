@@ -1,0 +1,16 @@
+:root {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+/* 
+@font-face {
+  font-family: somename;
+  src: url(@assets/fonts/???.ttf);
+} 
+
+@theme {
+  --font-somename: "somename", monospace;
+}
+
+*/

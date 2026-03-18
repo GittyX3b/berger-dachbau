@@ -1,0 +1,3 @@
+.btn-bd-link {
+  @apply rounded bg-bd-darkgray text-bd-base border border-bd-base hover:text-bd-darkgray hover:bg-bd-base hover:border-bd-darkgray active:bg-bd-lightgray;
+}
