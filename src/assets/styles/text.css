@@ -1,15 +1,32 @@
+:root {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+/* 
+@font-face {
+  font-family: somename;
+  src: url(@assets/fonts/???.ttf);
+} 
+
+@theme {
+  --font-somename: "somename", monospace;
+}
+
+*/
+
 body {
-  @apply text-black;
+  @apply text-bd-darkgray;
 }
 
 h1 {
-  @apply py-8 text-[2.2rem];
+  @apply py-8 text-[1.2rem] font-bold sm:text-[1.6rem] xl:text-[2rem];
 }
 
 h2 {
-  @apply py-6 text-[1.5rem];
+  @apply py-6 text-[1.1rem];
 }
 
 h3 {
-  @apply py-4 text-[1.2rem];
+  @apply py-4 text-[1rem];
 }

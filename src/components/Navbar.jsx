@@ -2,7 +2,7 @@ import { Phone, Send } from "lucide-react";
 import favicon from "../assets/icons/favicon_Dachdecker.ico";
 
 export const Navbar = () => (
-  <div className="navbar bg-bd-yellow shadow shadow-bd-lightgray">
+  <div className="navbar fixed bg-bd-yellow shadow shadow-bd-darkgray">
     <div className="flex m-auto w-screen app-maxwidth">
       <div className="navbar-start">
         <a className="btn btn-ghost rounded border-0 text-xl" href="/">

@@ -1,7 +1,12 @@
+import { Header, Hero } from "@components";
+
 const Home = () => {
   return (
     <div id="Home">
-      <div>Home.jsx</div>
+      <Header />
+      <main>
+        <Hero />
+      </main>
     </div>
   );
 };

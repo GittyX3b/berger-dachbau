@@ -1,6 +1,9 @@
 @theme {
   --color-bd-base: #ffffff;
-  --color-bd-yellow: #f7d117;
+  --color-bd-yellow: #ead700;
+  --color-bd-darkyellow: #d4b012;
   --color-bd-lightgray: #f4f4f4;
   --color-bd-darkgray: #2c2e35;
+  --color-bd-green: #2d5a27;
+  --color-bd-darkgreen: #3a7332;
 }

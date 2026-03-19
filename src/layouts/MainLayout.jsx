@@ -6,7 +6,9 @@ const MainLayout = () => {
   return (
     <div id="MainLayout" className="min-h-screen w-full bg-bd-blackstones">
       <Navbar />
-      <Outlet />
+      <div className="m-auto w-screen app-maxwidth">
+        <Outlet />
+      </div>
     </div>
   );
 };

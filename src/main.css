@@ -2,11 +2,8 @@
 @plugin 'daisyui' {
   themes:
     light --default,
-    dark --prefersdark,
+    dark --prefersdark;
   root: ":root";
-  include:;
-  exclude:;
-  prefix:;
   logs: true;
 }
 
@@ -17,14 +14,21 @@
 
 @import "@assets/styles/colors.css";
 @import "@assets/styles/buttons.css";
-@import "@assets/styles/fonts.css";
 @import "@assets/styles/text.css";
 
+body {
+  user-select: none;
+}
+
+img {
+  user-select: none;
+  -webkit-user-drag: none;
+}
 
 .app-maxwidth {
   @apply max-w-[1600px];
 }
 
 .bg-bd-blackstones {
-  @apply bg-[url('./assets/images/bg_schieferplatten_schwarz.jpg')] bg-fixed bg-cover bg-center h-screen
+  @apply bg-[url('./assets/images/bg_schieferplatten_schwarz.webp')] bg-fixed bg-cover bg-center min-h-screen;
 }
