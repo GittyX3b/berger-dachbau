@@ -4,9 +4,12 @@ import { Navbar } from "@components";
 
 const MainLayout = () => {
   return (
-    <div id="MainLayout" className="min-h-screen w-full bg-bd-blackstones">
+    <div
+      id="MainLayout"
+      className="min-h-screen w-fit lg:w-full bg-bd-blackstones"
+    >
       <Navbar />
-      <div className="m-auto w-screen app-maxwidth">
+      <div className="m-auto w-full app-maxwidth">
         <Outlet />
       </div>
     </div>

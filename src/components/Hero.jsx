@@ -11,25 +11,25 @@ export const Hero = () => (
     ></div>
     <div
       id="Hero-Right"
-      className="grid grid-rows-[75%_1fr] min-h-120 text-center p-15"
+      className="grid grid-rows-2 text-center w-full p-15 xl:p-33"
     >
       <div>
-        <p className="text-xl pb-10">
+        <h2 className="text-xl pb-10">
           Wir übernehmen Arbeiten an <strong>Dach</strong>,
           <strong className="pl-1">Fassade</strong>,
           <strong className="pl-1">Balkon</strong> und
           <strong className="pl-1">Terasse</strong>.
-        </p>
-        <p className="text-xl pb-10">
+        </h2>
+        <p className="text-xl">
           Gerne unterstützen wir Sie bereits in der Planungsphase!
         </p>
       </div>
-      <div className="lg:max-w-[80%] m-auto">
+      <div className="lg:max-w-[80%] m-auto pt-15 xl:pt-25">
         <a
           className="btn btn-md btn-bd-cta m-auto w-full xl:btn-lg "
           href="mailto:andreas@berger-dachbau.de"
         >
-          <Mail className="px-1" size={36} />
+          <Mail className="pr-1" size={36} />
           <span>Anfrage schreiben</span>
         </a>
         <p className="text-xs pt-3">
