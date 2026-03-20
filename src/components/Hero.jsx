@@ -15,10 +15,7 @@ export const Hero = () => (
     >
       <div>
         <h2 className="text-xl pb-10">
-          Wir übernehmen Arbeiten an <strong>Dach</strong>,
-          <strong className="pl-1">Fassade</strong>,
-          <strong className="pl-1">Balkon</strong> und
-          <strong className="pl-1">Terasse</strong>.
+          Wir übernehmen Arbeiten an Dach, Fassade, Balkon und Terasse.
         </h2>
         <p className="text-xl">
           Gerne unterstützen wir Sie bereits in der Planungsphase!
