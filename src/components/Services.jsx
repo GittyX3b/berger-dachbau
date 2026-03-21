@@ -6,10 +6,13 @@ export const Services = () => (
     >
       Unsere Leistungen
     </h2>
-    <div className="grid grid-rows-2 md:grid-rows-1 md:grid-cols-2">
+    <div
+      id="Services-Grid"
+      className="grid grid-rows-2 md:grid-rows-1 md:grid-cols-2"
+    >
       <div
         id="ServicesRight"
-        className="md:order-2 w-full h-full bg-[url('./assets/images/Berger-Dachbau_Referenz_00008.jpg')] bg-cover bg-center"
+        className="md:order-2 w-full h-full bg-[url('./assets/images/Berger-Dachbau_Referenz_Services.jpg')] bg-cover bg-center"
       ></div>
       <div
         id="ServicesLeft"
@@ -25,7 +28,10 @@ export const Services = () => (
         </ul>
       </div>
     </div>
-    <div className="hidden w-full text-justify p-10 pb-15 md:block sm:px-15 lg:px-25">
+    <div
+      id="Services-Text"
+      className="hidden w-full text-justify p-10 pb-15 md:block sm:px-15 lg:px-25"
+    >
       Sprechen Sie uns an. Unabhängig vom Umfang der auszuführenden Arbeiten
       sind wir gerne für Sie da. Wir sind stets bestrebt, Ihre individuellen
       Wünsche und Vorstellungen, unter Berücksichtigung der anerkannten Regeln

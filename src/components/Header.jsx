@@ -6,11 +6,5 @@ export const Header = () => (
       alt="Firmenlogo Dachdeckermeister Andreas Berger"
       className="w-full"
     />
-    <h1
-      id="HeaderSubtitle"
-      className="bg-black text-white text-center px-4 w-full"
-    >
-      Neubau Sanierung Reparatur
-    </h1>
   </header>
 );
