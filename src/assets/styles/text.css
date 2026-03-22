@@ -28,5 +28,5 @@ h2 {
 }
 
 h3 {
-  @apply py-4 text-[1rem];
+  @apply py-4 text-[1rem] font-bold sm:text-[1.2rem] xl:text-[1.4rem];
 }

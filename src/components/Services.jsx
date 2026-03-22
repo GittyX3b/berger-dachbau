@@ -30,7 +30,7 @@ export const Services = () => (
     </div>
     <div
       id="Services-Text"
-      className="hidden w-full text-justify p-10 pb-15 md:block sm:px-15 lg:px-25"
+      className="w-full text-justify p-10 pb-15 md:block sm:px-15 lg:px-25"
     >
       Sprechen Sie uns an. Unabhängig vom Umfang der auszuführenden Arbeiten
       sind wir gerne für Sie da. Wir sind stets bestrebt, Ihre individuellen

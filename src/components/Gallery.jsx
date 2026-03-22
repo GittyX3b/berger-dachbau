@@ -41,7 +41,7 @@ export const Gallery = () => {
   };
 
   return (
-    <section>
+    <section id="Gallery" className="w-full bg-white -mb-2">
       <h2
         id="Gallery-Title"
         className="bg-bd-lightgray text-bd-darkgray px-4 w-full border-t-5 flex items-center justify-center"
@@ -60,59 +60,113 @@ export const Gallery = () => {
           onClick={handleRight}
         ></MoveRight>
       </h2>
-      <div className="carousel w-full">
-        <div id="slide1" className="carousel-item relative w-full md:w-1/2">
+      <div className="carousel w-full h-fit">
+        <div
+          id="slide1"
+          className="carousel-item relative w-full h-fit md:w-1/2"
+        >
           <img src={image1} className="w-fit" />
         </div>
-        <div id="slide2" className="carousel-item relative w-full md:w-1/2">
+        <div
+          id="slide2"
+          className="carousel-item relative w-full h-fit md:w-1/2"
+        >
           <img src={image2} className="w-fit" />
         </div>
-        <div id="slide3" className="carousel-item relative w-full md:w-1/2">
+        <div
+          id="slide3"
+          className="carousel-item relative w-full h-fit md:w-1/2"
+        >
           <img src={image3} className="w-fit" />
         </div>
-        <div id="slide4" className="carousel-item relative w-full md:w-1/2">
+        <div
+          id="slide4"
+          className="carousel-item relative w-full h-fit md:w-1/2"
+        >
           <img src={image4} className="w-fit" />
         </div>
-        <div id="slide5" className="carousel-item relative w-full md:w-1/2">
+        <div
+          id="slide5"
+          className="carousel-item relative w-full h-fit md:w-1/2"
+        >
           <img src={image5} className="w-fit" />
         </div>
-        <div id="slide6" className="carousel-item relative w-full md:w-1/2">
+        <div
+          id="slide6"
+          className="carousel-item relative w-full h-fit md:w-1/2"
+        >
           <img src={image6} className="w-fit" />
         </div>
-        <div id="slide7" className="carousel-item relative w-full md:w-1/2">
+        <div
+          id="slide7"
+          className="carousel-item relative w-full h-fit md:w-1/2"
+        >
           <img src={image7} className="w-fit" />
         </div>
-        <div id="slide8" className="carousel-item relative w-full md:w-1/2">
+        <div
+          id="slide8"
+          className="carousel-item relative w-full h-fit md:w-1/2"
+        >
           <img src={image8} className="w-fit" />
         </div>
-        <div id="slide9" className="carousel-item relative w-full md:w-1/2">
+        <div
+          id="slide9"
+          className="carousel-item relative w-full h-fit md:w-1/2"
+        >
           <img src={image9} className="w-fit" />
         </div>
-        <div id="slide10" className="carousel-item relative w-full md:w-1/2">
+        <div
+          id="slide10"
+          className="carousel-item relative w-full h-fit md:w-1/2"
+        >
           <img src={image10} className="w-fit" />
         </div>
-        <div id="slide11" className="carousel-item relative w-full md:w-1/2">
+        <div
+          id="slide11"
+          className="carousel-item relative w-full h-fit md:w-1/2"
+        >
           <img src={image11} className="w-fit" />
         </div>
-        <div id="slide12" className="carousel-item relative w-full md:w-1/2">
+        <div
+          id="slide12"
+          className="carousel-item relative w-full h-fit md:w-1/2"
+        >
           <img src={image12} className="w-fit" />
         </div>
-        <div id="slide13" className="carousel-item relative w-full md:w-1/2">
+        <div
+          id="slide13"
+          className="carousel-item relative w-full h-fit md:w-1/2"
+        >
           <img src={image13} className="w-fit" />
         </div>
-        <div id="slide14" className="carousel-item relative w-full md:w-1/2">
+        <div
+          id="slide14"
+          className="carousel-item relative w-full h-fit md:w-1/2"
+        >
           <img src={image14} className="w-fit" />
         </div>
-        <div id="slide15" className="carousel-item relative w-full md:w-1/2">
+        <div
+          id="slide15"
+          className="carousel-item relative w-full h-fit md:w-1/2"
+        >
           <img src={image15} className="w-fit" />
         </div>
-        <div id="slide16" className="carousel-item relative w-full md:w-1/2">
+        <div
+          id="slide16"
+          className="carousel-item relative w-full h-fit md:w-1/2"
+        >
           <img src={image16} className="w-fit" />
         </div>
-        <div id="slide17" className="carousel-item relative w-full md:w-1/2">
+        <div
+          id="slide17"
+          className="carousel-item relative w-full h-fit md:w-1/2"
+        >
           <img src={image17} className="w-fit" />
         </div>
-        <div id="slide18" className="carousel-item relative w-full md:w-1/2">
+        <div
+          id="slide18"
+          className="carousel-item relative w-full h-fit md:w-1/2"
+        >
           <img src={image18} className="w-fit" />
         </div>
       </div>
