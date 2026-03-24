@@ -2,7 +2,7 @@ export const Services = () => (
   <section id="Services" className="w-full bg-white">
     <h2
       id="ServicesTitle"
-      className="bg-bd-darkgray text-white text-center px-4 w-full"
+      className="bg-black text-white text-center px-4 w-full"
     >
       Unsere Leistungen
     </h2>

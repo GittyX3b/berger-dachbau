@@ -12,9 +12,15 @@ export const Contact = () => (
       id="Contact-Grid"
       className="w-full grid grid-rows-2 md:grid-rows-1 md:grid-cols-2"
     >
+      <div id="Contact-Map" className="w-full">
+        <iframe
+          src="https://maps.google.de/maps?hl=de&q=Berger-Dachbau+UG%20%20Paschlewwerstr.9%20Köthen&t=TERRAIN&z=13&ie=utf8&iwloc=b&output=embed"
+          className="w-full h-full"
+        ></iframe>
+      </div>
       <div
-        id="Contact-Left"
-        className="w-full p-15 text-center md:text-start md:order-2 xl:p-33"
+        id="Contact-Address"
+        className="w-full p-15 pb-35 text-center md:text-start xl:p-33"
       >
         <h3>Kontakt</h3>
         <strong>Dachdeckermeister Andreas Berger </strong>
@@ -31,7 +37,7 @@ export const Contact = () => (
         <div className="mt-4 space-y-2">
           <p>
             <Mail className="inline mr-2" size={18} />
-            <a href="mailto:andreas@berger-dachbau.de">
+            <a href="mailto:andreas@berger-dachbau.de?subject=Kontaktaufnahme über Webseite">
               andreas@berger-dachbau.de
             </a>
           </p>
@@ -48,12 +54,6 @@ export const Contact = () => (
             +49 3496 / 212618
           </p>
         </div>
-      </div>
-      <div id="Contact-Right" className="w-full md:order-1">
-        <iframe
-          src="https://maps.google.de/maps?hl=de&q=Berger-Dachbau+UG%20%20Paschlewwerstr.9%20Köthen&t=TERRAIN&z=13&ie=utf8&iwloc=b&output=embed"
-          className="w-full h-full"
-        ></iframe>
       </div>
     </div>
   </section>

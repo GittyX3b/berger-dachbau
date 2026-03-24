@@ -1,4 +1,4 @@
-import { Header, Hero, Services, Gallery, Contact } from "@components";
+import { Header, Hero, Services, Gallery, Contact, Footer } from "@components";
 
 const Home = () => {
   return (
@@ -10,6 +10,7 @@ const Home = () => {
         <Gallery />
         <Contact />
       </main>
+      <Footer />
     </div>
   );
 };

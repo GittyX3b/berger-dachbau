@@ -28,7 +28,7 @@ export const Hero = () => (
         <div className="lg:max-w-[80%] m-auto pt-15 xl:pt-25">
           <a
             className="btn btn-md btn-bd-cta m-auto w-full xl:btn-lg "
-            href="mailto:andreas@berger-dachbau.de"
+            href="mailto:andreas@berger-dachbau.de?subject=Kontaktaufnahme über Webseite"
           >
             <Mail className="pr-1" size={36} />
             <span>Anfrage schreiben</span>

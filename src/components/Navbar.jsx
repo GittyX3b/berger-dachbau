@@ -5,9 +5,10 @@ export const Navbar = () => {
   const handleNavClick = (e, targetId) => {
     e.preventDefault();
     const element = document.getElementById(targetId);
+    if (!element) return;
     const navbarHeight = document.querySelector(".navbar")?.offsetHeight || 0;
     const elementPosition =
-      element?.getBoundingClientRect().top + window.scrollY - navbarHeight;
+      element.getBoundingClientRect().top + window.scrollY - navbarHeight + 1;
     window.scrollTo({ top: elementPosition, behavior: "smooth" });
   };
 
@@ -15,7 +16,10 @@ export const Navbar = () => {
     <section className="navbar fixed bg-bd-yellow shadow shadow-bd-darkgray z-100">
       <div className="flex m-auto w-screen app-maxwidth">
         <div className="navbar-start">
-          <a className="btn btn-ghost rounded border-0 text-xl" href="/">
+          <a
+            className="btn btn-ghost rounded border-0 text-xl hover:bg-white"
+            href="/"
+          >
             <img
               src={favicon}
               alt="Berger Dachbau"
@@ -24,36 +28,36 @@ export const Navbar = () => {
             Berger-Dachbau
           </a>
         </div>
-        <div className="navbar-center gap-2 hidden lg:block">
-          <a
-            href="#Hero"
+        <nav id="Navigation" className="navbar-center gap-2 hidden lg:flex">
+          <button
+            id="Nav-Hero"
             onClick={(e) => handleNavClick(e, "Hero")}
             className="nav-item btn btn-xs btn-ghost p-4 bg-bd-yellow hover:bg-white"
           >
             <Home size={20} />
-          </a>
-          <a
-            href="#Services"
+          </button>
+          <button
+            id="Nav-Services"
             onClick={(e) => handleNavClick(e, "Services")}
             className="nav-item btn btn-xs btn-ghost p-4 bg-bd-yellow hover:bg-white"
           >
             Leistungen
-          </a>
-          <a
-            href="#Gallery"
+          </button>
+          <button
+            id="Nav-Gallery"
             onClick={(e) => handleNavClick(e, "Gallery")}
             className="nav-item btn btn-xs btn-ghost p-4 bg-bd-yellow hover:bg-white"
           >
             Referenzen
-          </a>
-          <a
-            href="#Contact"
+          </button>
+          <button
+            id="Nav-Contact"
             onClick={(e) => handleNavClick(e, "Contact")}
             className="nav-item btn btn-xs btn-ghost p-4 bg-bd-yellow hover:bg-white"
           >
             Kontakt
-          </a>
-        </div>
+          </button>
+        </nav>
         <div className="navbar-end">
           <a className="btn btn-sm btn-bd-link mr-2" href="tel:+491711947621">
             <Phone className="px-1" />
@@ -61,7 +65,7 @@ export const Navbar = () => {
           </a>
           <a
             className="btn btn-sm btn-bd-link hidden 2xs:flex"
-            href="mailto:andreas@berger-dachbau.de"
+            href="mailto:andreas@berger-dachbau.de?subject=Kontaktaufnahme über Webseite"
           >
             <Send className="px-1" />
             <span className="hidden xs:flex">Email</span>
