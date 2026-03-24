@@ -38,7 +38,7 @@ export const Footer = () => {
 
       {openModal && (
         <div className="modal modal-open">
-          <div className="modal-box w-11/12 max-w-6xl">
+          <div className="modal-box w-11/12 max-w-6xl bg-white">
             <h3 className="font-bold text-lg">
               {openModal.charAt(0).toUpperCase() + openModal.slice(1)}
             </h3>
