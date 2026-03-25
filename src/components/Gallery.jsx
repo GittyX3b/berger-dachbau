@@ -50,6 +50,7 @@ export const Gallery = () => {
           id="Gallery-Left"
           className="md:btn md:btn-soft"
           onClick={handleLeft}
+          aria-label="Gallery nach links bewegen"
         ></MoveLeft>
         <span className="px-4">
           <span className="hidden md:inline">Unsere </span>Referenzen
@@ -58,6 +59,7 @@ export const Gallery = () => {
           id="Gallery-Right"
           className="md:btn md:btn-soft"
           onClick={handleRight}
+          aria-label="Gallery nach rechts bewegen"
         ></MoveRight>
       </h2>
       <div className="carousel w-full h-fit">
@@ -65,109 +67,181 @@ export const Gallery = () => {
           id="slide1"
           className="carousel-item relative w-full h-fit md:w-1/2"
         >
-          <img src={image1} className="w-fit" />
+          <img
+            src={image1}
+            className="w-fit"
+            alt="Weisser, hölzerner Balkon mit weiß verschindelter Fassade"
+          />
         </div>
         <div
           id="slide2"
           className="carousel-item relative w-full h-fit md:w-1/2"
         >
-          <img src={image2} className="w-fit" />
+          <img
+            src={image2}
+            className="w-fit"
+            alt="Satteldach mit roten Dachsteinen und schwarzen Dachfenstern"
+          />
         </div>
         <div
           id="slide3"
           className="carousel-item relative w-full h-fit md:w-1/2"
         >
-          <img src={image3} className="w-fit" />
+          <img
+            src={image3}
+            className="w-fit"
+            alt="Rote Satteldachflächen mit Photovoltaik und Dachfenstern"
+          />
         </div>
         <div
           id="slide4"
           className="carousel-item relative w-full h-fit md:w-1/2"
         >
-          <img src={image4} className="w-fit" />
+          <img
+            src={image4}
+            className="w-fit"
+            alt="Einfamilienhaus mit schwarzem Satteldach, grosser Photovoltaikanlage und verschindelten Schornsteinen"
+          />
         </div>
         <div
           id="slide5"
           className="carousel-item relative w-full h-fit md:w-1/2"
         >
-          <img src={image5} className="w-fit" />
+          <img
+            src={image5}
+            className="w-fit"
+            alt="Rotes Steildach mit Biberschwänzen und zwei runden Gauben"
+          />
         </div>
         <div
           id="slide6"
           className="carousel-item relative w-full h-fit md:w-1/2"
         >
-          <img src={image6} className="w-fit" />
+          <img
+            src={image6}
+            className="w-fit"
+            alt="Mehrfamilienhaus mit rotem Satteldech mit hölzerner Balkon- und Terassenkonstruktion"
+          />
         </div>
         <div
           id="slide7"
           className="carousel-item relative w-full h-fit md:w-1/2"
         >
-          <img src={image7} className="w-fit" />
+          <img
+            src={image7}
+            className="w-fit"
+            alt="Hölzerner Geräteschuppen mit Vordach und Fahradabstellplatz"
+          />
         </div>
         <div
           id="slide8"
           className="carousel-item relative w-full h-fit md:w-1/2"
         >
-          <img src={image8} className="w-fit" />
+          <img
+            src={image8}
+            className="w-fit"
+            alt="Hölzernes Terassendach mit Wellblechdach und Regenrinne"
+          />
         </div>
         <div
           id="slide9"
           className="carousel-item relative w-full h-fit md:w-1/2"
         >
-          <img src={image9} className="w-fit" />
+          <img
+            src={image9}
+            className="w-fit"
+            alt="Hölzerne Vordach mit Dachsziegeln und Rinne an Eingangstür"
+          />
         </div>
         <div
           id="slide10"
           className="carousel-item relative w-full h-fit md:w-1/2"
         >
-          <img src={image10} className="w-fit" />
+          <img
+            src={image10}
+            className="w-fit"
+            alt="Dreistöckige Balkonkonstruktion an Mehrfamilienhaus"
+          />
         </div>
         <div
           id="slide11"
           className="carousel-item relative w-full h-fit md:w-1/2"
         >
-          <img src={image11} className="w-fit" />
+          <img
+            src={image11}
+            className="w-fit"
+            alt="Große hölzerne Fassadenverkleidung aus senkrechten Brettern"
+          />
         </div>
         <div
           id="slide12"
           className="carousel-item relative w-full h-fit md:w-1/2"
         >
-          <img src={image12} className="w-fit" />
+          <img
+            src={image12}
+            className="w-fit"
+            alt="Verschindelter Giebel an Mehrfamilienhaus"
+          />
         </div>
         <div
           id="slide13"
           className="carousel-item relative w-full h-fit md:w-1/2"
         >
-          <img src={image13} className="w-fit" />
+          <img
+            src={image13}
+            className="w-fit"
+            alt="Hölzerner Balkon mit lichtdurchlässigen Dachplatten"
+          />
         </div>
         <div
           id="slide14"
           className="carousel-item relative w-full h-fit md:w-1/2"
         >
-          <img src={image14} className="w-fit" />
+          <img
+            src={image14}
+            className="w-fit"
+            alt="Verschieferte Kirchturmspitze der Pissdorfer Kirche"
+          />
         </div>
         <div
           id="slide15"
           className="carousel-item relative w-full h-fit md:w-1/2"
         >
-          <img src={image15} className="w-fit" />
+          <img
+            src={image15}
+            className="w-fit"
+            alt="Instandgesetztes Fachwerk eines alten Hauses"
+          />
         </div>
         <div
           id="slide16"
           className="carousel-item relative w-full h-fit md:w-1/2"
         >
-          <img src={image16} className="w-fit" />
+          <img
+            src={image16}
+            className="w-fit"
+            alt="Hölzerne Dachstuhlkonstruktion eines Einfamilienhauses"
+          />
         </div>
         <div
           id="slide17"
           className="carousel-item relative w-full h-fit md:w-1/2"
         >
-          <img src={image17} className="w-fit" />
+          <img
+            src={image17}
+            className="w-fit"
+            alt="Große Photovoltaikflächen auf industrieller Lagerhalle"
+          />
         </div>
         <div
           id="slide18"
           className="carousel-item relative w-full h-fit md:w-1/2"
         >
-          <img src={image18} className="w-fit" />
+          <img
+            src={image18}
+            className="w-fit"
+            alt="Firmenfahrzeug vor neugebautem Einfamilienhaus und Garage mit mediteranen Dachsteinen"
+          />
         </div>
       </div>
     </section>

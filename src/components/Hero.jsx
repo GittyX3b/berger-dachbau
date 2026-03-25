@@ -12,6 +12,7 @@ export const Hero = () => (
       <div
         id="Hero-Left"
         className="w-full h-full bg-[url('./assets/images/Berger-Dachbau_Referenz_Hero.jpg')] bg-cover bg-center"
+        aria-label="Foto eines roten Satteldaches mit Photvoltaikflächen, Dachfenstern und verschindelter Balkonfassade"
       ></div>
       <div
         id="Hero-Right"
@@ -29,6 +30,7 @@ export const Hero = () => (
           <a
             className="btn btn-md btn-bd-cta m-auto w-full xl:btn-lg "
             href="mailto:andreas@berger-dachbau.de?subject=Kontaktaufnahme über Webseite"
+            aria-label="Email schreiben"
           >
             <Mail className="pr-1" size={36} />
             <span>Anfrage schreiben</span>

@@ -16,11 +16,13 @@ export const Contact = () => (
         <iframe
           src="https://maps.google.de/maps?hl=de&q=Berger-Dachbau+UG%20%20Paschlewwerstr.9%20Köthen&t=TERRAIN&z=13&ie=utf8&iwloc=b&output=embed"
           className="w-full h-full"
+          aria-label="Dynamische Kartenansicht mit Firmenstandort"
         ></iframe>
       </div>
       <div
         id="Contact-Address"
         className="w-full p-15 pb-35 text-center md:text-start xl:p-33"
+        aria-label="Ausführliche Kontaktdaten der Firma"
       >
         <h3>Kontakt</h3>
         <strong>Dachdeckermeister Andreas Berger </strong>
@@ -37,19 +39,26 @@ export const Contact = () => (
         <div className="mt-4 space-y-2">
           <p>
             <Mail className="inline mr-2" size={18} />
-            <a href="mailto:andreas@berger-dachbau.de?subject=Kontaktaufnahme über Webseite">
+            <a
+              href="mailto:andreas@berger-dachbau.de?subject=Kontaktaufnahme über Webseite"
+              aria-label="Emailadresse anschreiben"
+            >
               andreas@berger-dachbau.de
             </a>
           </p>
           <p>
             <Phone className="inline mr-2" size={18} />
-            <a href="tel:+493496212840">+49 3496 / 212840</a>
+            <a href="tel:+493496212840" aria-label="Festnetznummer anrufen">
+              +49 3496 / 212840
+            </a>
           </p>
           <p>
             <Smartphone className="inline mr-2" size={18} />
-            <a href="tel:+491711947621">+49 171 / 1947621</a>
+            <a href="tel:+491711947621" aria-label="Handynummer anrufen">
+              +49 171 / 1947621
+            </a>
           </p>
-          <p>
+          <p aria-label="Faxnummer">
             <Printer className="inline mr-2" size={18} />
             +49 3496 / 212618
           </p>

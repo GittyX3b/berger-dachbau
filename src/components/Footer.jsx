@@ -10,18 +10,21 @@ export const Footer = () => {
           <button
             className="nav-item btn btn-xs btn-ghost p-3 bg-bd-darkgray hover:bg-white"
             onClick={() => setOpenModal("impressum")}
+            aria-label="Impressum zeigen"
           >
             Impressum
           </button>
           <button
             className="nav-item btn btn-xs btn-ghost p-3 bg-bd-darkgray hover:bg-white"
             onClick={() => setOpenModal("datenschutz")}
+            aria-label="Datenschutz zeigen"
           >
             Datenschutz
           </button>
           <button
             className="nav-item btn btn-xs btn-ghost p-3 bg-bd-darkgray hover:bg-white"
             onClick={() => setOpenModal("links")}
+            aria-label="Verlinkte Webseite zeigen"
           >
             Links
           </button>

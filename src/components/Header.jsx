@@ -7,6 +7,7 @@ export const Header = () => (
       src={FirmenLogo}
       alt="Firmenlogo Dachdeckermeister Andreas Berger"
       className="w-full"
+      aria-label="Grosses, gelb-schwarzes Firmenlogo von Berger-Dachbau"
     />
   </header>
 );

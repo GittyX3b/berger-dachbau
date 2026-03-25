@@ -13,12 +13,16 @@ export const Services = () => (
       <div
         id="ServicesRight"
         className="md:order-2 w-full h-full bg-[url('./assets/images/Berger-Dachbau_Referenz_Services.jpg')] bg-cover bg-center"
+        aria-label="Foto eines erstellten, hölzernen Gartenpavillions"
       ></div>
       <div
         id="ServicesLeft"
         className="md:order-1 w-full text-center  bg-bd-lightgray p-15 md:text-start lg:px-25 xl:p-25"
       >
-        <ul className="font-bold grid gap-5 lg:gap-10">
+        <ul
+          className="font-bold grid gap-5 lg:gap-10"
+          aria-label="Liste der angebotenen Dienstleistungen"
+        >
           <li>Dachdeckerarbeiten aller Art</li>
           <li>Klempner- und Zimmererleistungen</li>
           <li>Fassaden- und Schieferarbeiten</li>
