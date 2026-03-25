@@ -18,7 +18,7 @@ export const Navbar = () => {
         <div className="navbar-start">
           <a
             className="btn btn-ghost rounded border-0 text-xl hover:bg-white"
-            href="/berger-dachbau"
+            href="/"
             aria-label="Seite neu laden"
           >
             <img
